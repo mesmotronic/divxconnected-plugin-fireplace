@@ -1,0 +1,54 @@
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Fireplace</title>
+		
+		<style>
+			html 
+			{
+				background-color: #000;
+				color: #FFF;
+				height: 100%;
+			}
+			body 
+			{
+				height: 100%; 
+				margin: 0;
+				overflow: hidden; 
+			}
+			#swf
+			{
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		
+		<script src="chrome://connected/content/connected.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			function onKeyEvent(event)
+			{
+				// Use default action
+				return false;
+			}
+			
+			function onLoad()
+			{
+				connected.onKeyEvent = onKeyEvent;
+			}
+		</script>
+		
+	</head>
+	
+	<body scroll="no">
+		<object 
+			id="swf" 
+			name="swf" 
+			width="100%" height="100%"
+			data="http://www.youtube.com/v/Nzbnj8f3z7U&autoplay=1" 
+			type="application/x-shockwave-flash" 
+			>
+			<param name="movie" value="http://www.youtube.com/v/Nzbnj8f3z7U&autoplay=1">
+			<param name="allowScriptAccess" value="always">
+		</object>
+	</body>
+</html>

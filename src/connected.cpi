@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plug-in>
+    <title>Fireplace</title>
+    <icon-url>icon.png</icon-url>
+    <poster-url>poster.png</poster-url>
+    <page-descriptor>
+        <type>DCTK</type>
+        <source-url>fireplace.js</source-url>
+    </page-descriptor>
+</plug-in>
